@@ -1,0 +1,57 @@
+# 核心依赖
+numpy>=1.19.0
+pandas>=1.2.0
+scikit-learn>=0.24.0
+matplotlib>=3.3.0
+seaborn>=0.11.0
+
+# 机器学习框架
+# 用于深度学习特征编码器
+torch>=1.7.0  
+# 用于训练管理
+pytorch-lightning>=1.5.0  
+
+
+# 数据处理和分析
+scipy>=1.6.0
+joblib>=1.0.0  
+
+
+# 日志和配置
+# 用于配置文件
+pyyaml>=5.4.0  
+# 用于JSON格式日志
+python-json-logger>=2.0.0  
+
+# 测试和开发工具
+pytest>=6.2.0
+# 用于测试覆盖率报告
+pytest-cov>=2.12.0 
+# 代码格式化
+black>=21.5b2 
+# 代码检查
+flake8>=3.9.0 
+# import排序
+isort>=5.9.0 
+
+# 可视化
+# 交互式可视化
+plotly>=4.14.0  
+# 用于保存plotly图表
+kaleido>=0.2.0  
+
+# 性能优化
+# 用于代码加速
+numba>=0.53.0  
+# 进度条显示
+tqdm>=4.61.0  
+
+# 文档
+# 文档生成
+sphinx>=4.0.0  
+# Read the Docs主题
+sphinx-rtd-theme>=0.5.0  
+
+# 版本控制
+setuptools>=57.0.0
+wheel>=0.36.2 
