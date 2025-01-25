@@ -27,7 +27,7 @@ ENV/
 
 # 数据文件
 data/raw/*
-data/processed/*
+data/processed/*.tmp
 !data/raw/.gitkeep
 !data/processed/.gitkeep
 !data/raw/README.md
